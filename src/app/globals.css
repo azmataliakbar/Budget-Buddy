@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dynamic-width {
+  width: var(--dynamic-width);
+}
+
+.buddy1 {
+text-shadow: 4px 4px 4px rgb(163, 163, 251);
+}
+
+.buddy2 {
+  text-shadow: 4px 4px 4px rgb(247, 181, 247);
+  }
+
+  .buddy3 {
+    text-shadow: 4px 4px 4px rgb(135, 246, 135);
+    }
+
+    .buddy4 {
+      text-shadow: 4px 4px 4px rgb(248, 187, 187);
+      }
+
+      .buddy5 {
+        text-shadow: 4px 4px 4px rgb(188, 186, 186);
+        }
+
+.btn1 {
+  box-shadow: 4px 4px 4px rgb(130, 254, 130);
+}
+
+.btn2 {
+  box-shadow: 4px 4px 4px rgb(247, 158, 158);
+}
+
+.author {
+  text-shadow: 4px 4px 4px rgb(183, 180, 180);
+}
