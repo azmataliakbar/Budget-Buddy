@@ -55,3 +55,7 @@ text-shadow: 4px 4px 4px rgb(163, 163, 251);
 .author {
   text-shadow: 4px 4px 4px rgb(183, 180, 180);
 }
+
+.bar {
+  box-shadow: 4px 4px 4px rgb(146, 145, 145);
+}

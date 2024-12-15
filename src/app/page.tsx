@@ -108,9 +108,9 @@ const handleAddTransaction = (type: TransactionType) => {
       {/* Progress Bar */}
       {budget > 0 && (
         <div className="w-full max-w-md">
-          <div className="w-full bg-gray-300 h-4 rounded-md overflow-hidden">
+          <div className="bar  w-full bg-gray-300 h-4 rounded-md overflow-hidden">
             <div
-              className={`h-full ${
+              className={`  h-full ${
                 remainingBudget >= 0 ? "bg-green-500" : "bg-red-500"
               }`}
               style={{
